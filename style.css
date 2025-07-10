@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+CSS Naming Convention used
+BEM (Block-Element-Modifier)
+
+Structure:
+.block { }
+.block__element { }
+.block--modifier { }
+*/
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Base styles */
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Layout */
+/* #main {} */
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Typography */
+
+.section__text {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Components */
+
+.section-heading {
+    margin: 20px 0 0;
+}
+
+.section__ul {
+    margin: 0 0 16px;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__item {
+    margin: 10px 0 0;
+}
+
+.projects__item {
+    margin: 10px 0 0;
+}
+
+.certifications__item {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    max-width: 250px;
+}
+
+/* Utility Classes */
+
+.list--unstyled {
+    list-style-type: none;
+}
+
+.link--unstyled {
+    color: black;
+}
+
+
