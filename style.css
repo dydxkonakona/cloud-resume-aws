@@ -118,6 +118,7 @@ body {
     text-align: center;
     transition: transform 0.2s ease;
     max-width: 100%;
+    min-height: 400px;
 }
 
 .certifications__item:hover {
