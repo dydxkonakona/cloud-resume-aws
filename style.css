@@ -23,6 +23,7 @@ Structure:
 
 * {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 section {
@@ -39,8 +40,11 @@ img {
 }
 
 /* Layout */
+body {
+    margin: 0;
+}
 
-main {
+header, main {
     margin: 0 auto;
     padding: 0 24px; /* adjust 24px to whatever spacing you prefer */
     max-width: 1000px; /* optional: keeps content centered and readable on large screens */
@@ -72,6 +76,9 @@ body {
 }
 
 /* Components */
+.header__h1 {
+    margin-bottom: 0;
+}
 
 .section-heading {
     margin: 20px 0 0;
@@ -148,6 +155,17 @@ body {
     }
 }
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+    min-height: 100px;
+}
+
+
 /* Utility Classes */
 
 .list--unstyled {
@@ -161,5 +179,8 @@ body {
 
 .header__contacts ul a:hover {
     text-decoration: underline;
-    color: #0073b1; /* LinkedIn blue as an example */
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
 }
