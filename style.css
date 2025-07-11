@@ -147,8 +147,16 @@ body {
     padding: 0;
 }
 
-.projects__item {
-    margin: 10px 0 0;
+.projects__article {
+    margin: 5px 0 20px;
+}
+
+.projects__article h3 {
+    margin: 0;
+}
+
+.projects__article ul {
+    margin: 0 0 3px;
 }
 
 .certifications__item {
@@ -160,7 +168,7 @@ body {
     text-align: center;
     transition: transform 0.2s ease;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 440px;
 }
 
 .certifications__item:hover {
@@ -196,7 +204,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 
@@ -211,10 +219,11 @@ body {
     color: black;
 }
 
-.header__contacts ul a:hover {
+.link--unstyled:hover {
     text-decoration: underline;
 }
 
-.footer-container a:hover {
-    text-decoration: underline;
+.span--small {
+    font-weight: lighter;
+    font-size: smaller;
 }
