@@ -108,12 +108,9 @@ body {
     font-size: 42px;
 }
 
-.section-heading {
-    margin: 20px 0 0;
-}
-
-.section__ul {
-    margin: 0 0 16px;
+.header__p {
+    margin: 0 0 5px;
+    text-align: center;
 }
 
 .header__contacts ul {
@@ -132,6 +129,14 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+}
+
+.section-heading {
+    margin: 20px 0 0;
+}
+
+.section__ul {
+    margin: 0 0 16px;
 }
 
 .section__item {
