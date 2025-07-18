@@ -1,4 +1,4 @@
-# Cloud Resume Project
+# Cloud Resume Challenge
 
 ## Overview
 
