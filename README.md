@@ -1,9 +1,5 @@
 # Cloud Resume Project
 
-A simple static website deployed using AWS S3 and CloudFront. This project was created to practice core cloud services and demonstrate a basic understanding of web hosting on AWS.
-
----
-
 ## Overview
 
 This project hosts a basic HTML/CSS resume page using an S3 bucket, served globally through a CloudFront distribution. It focuses on setting up static website hosting, configuring public access, and enabling content delivery through a CDN.
