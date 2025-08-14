@@ -61,5 +61,3 @@ resource "aws_s3_object" "website_files" {
 
   etag = filemd5("./upload/${each.value}")
 }
-
-# CloudFront Creation
