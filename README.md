@@ -8,7 +8,7 @@ This project hosts a basic HTML/CSS resume page using an S3 bucket, served globa
 
 ## Architecture
 
-![Cloud Resume Architecture](./images/cloud-resume-diagram.png)
+![Cloud Resume Architecture](./site/images/cloud-resume-diagram.png)
 
 ---
 
@@ -32,15 +32,15 @@ This project hosts a basic HTML/CSS resume page using an S3 bucket, served globa
 ## Screenshots
 
 <p float="left">
-  <img src="./images/cdn-distribution-ss3.png" width="600" alt="CloudFront Distribution 3" />
-  <img src="./images/cdn-distribution-ss4.png" width="600" alt="CloudFront Distribution 4" />
+  <img src="./site/images/cdn-distribution-ss3.png" width="600" alt="CloudFront Distribution 3" />
+  <img src="./site/images/cdn-distribution-ss4.png" width="600" alt="CloudFront Distribution 4" />
 </p>
 
 <p float="left">
-  <img src="./images/s3-bucket-ss.png" width="400" alt="S3 Bucket Screenshot 1" />
-  <img src="./images/s3-bucket-ss2.png" width="400" alt="S3 Bucket Screenshot 2" />
-  <img src="./images/cdn-distribution-ss.png" width="400" alt="CloudFront Distribution 1" />
-  <img src="./images/cdn-distribution-ss2.png" width="400" alt="CloudFront Distribution 2" />
+  <img src="./site/images/s3-bucket-ss.png" width="400" alt="S3 Bucket Screenshot 1" />
+  <img src="./site/images/s3-bucket-ss2.png" width="400" alt="S3 Bucket Screenshot 2" />
+  <img src="./site/images/cdn-distribution-ss.png" width="400" alt="CloudFront Distribution 1" />
+  <img src="./site/images/cdn-distribution-ss2.png" width="400" alt="CloudFront Distribution 2" />
 </p>
 
 
