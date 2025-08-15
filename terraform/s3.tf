@@ -4,7 +4,7 @@ provider "aws" {
 
 # S3 Bucket creation
 resource "aws_s3_bucket" "sample" {
-  bucket = "mysampleterraformbucket"
+  bucket = "mycloudresume-bucket"
 }
 
 # Allow public access settings
